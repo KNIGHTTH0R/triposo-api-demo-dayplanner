@@ -1,0 +1,82 @@
+.selection-marker {
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  background-color: rgba(255, 0, 0, 0.7);
+  position: absolute;
+  left: -22px;
+  top: -22px;
+}
+
+.info-marker {
+}
+.info-marker svg {
+  fill: #282c34;
+}
+.info-marker.info-marker-primary svg {
+  fill: #fb433e;
+}
+
+.info-marker h2 {
+  position: absolute;
+  bottom: 40px;
+  left: -50px;
+  font-size: 12px;
+  background-color: #fff;
+  display: none;
+  width: 140px;
+  border-radius: 4px;
+  text-align: center;
+  padding: 4px 8px;
+  margin: 0;
+  z-index: 10;
+}
+.info-marker.marker-active h2 {
+  display: block;
+}
+
+.number-marker {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  left: -16px;
+  top: -16px;
+  padding: 4px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.number-marker div {
+  width: 24px;
+  height: 24px;
+  padding-top: 3px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: #282c34;
+  text-align: center;
+  color: #fff;
+}
+
+.number-marker.marker-active div {
+  border: 2px solid #333;
+}
+
+.number-marker.number-marker-primary div {
+  background-color: #45d2ad;
+}
+
+.color-marker-0 div {
+  background-color: #756bb1;
+}
+.color-marker-1 div {
+  background-color: #21c5f6;
+}
+.color-marker-2 div {
+  background-color: #fb433e;
+}
+.color-marker-3 div {
+  background-color: #45d2ad;
+}
+.color-marker-4 div {
+  background-color: #fd7f28;
+}
